@@ -1,0 +1,214 @@
+/*TABLETS STYLE*/
+
+@media only screen and(max-width : 940px)
+	.container
+		width: 748px
+	
+	.header .container
+		+pad2(0,40px)
+
+	.footer .container
+		+pad2(0,30px)
+
+	.steps__blocks
+		width: 236px
+
+	.steps__blocks__arrows
+		margin-top: 40px
+
+	.steps__blocks__info
+		height: 287px
+
+	.partners__wrapper
+		text-align: center
+		margin-bottom: -20px
+
+	.partners__blocks
+		display: inline-block
+		vertical-align: top
+		float: none
+		+marg4(0,20px,55px,20px)
+
+	.square__block
+		width: 236px
+		&.bg3
+			background-position: 100%
+		&.bg7
+			background-position: center
+
+	.rectangle__block
+		width: 492px
+
+	.pad40
+		+pad2(0, 20px)
+
+	.footer__collum__big
+		margin-right: 84px
+
+
+/*MOBILE STYLE*/
+
+@media only screen and(max-width : 748px)
+	.container
+		width: 300px
+
+	.header
+		height: 540px
+		.container
+			+pad2(0,10px)
+
+	.header__top
+		text-align: center
+		top: 30px
+
+	.header__top__logo
+		position: absolute
+		top: 139px
+
+	.header__top__btn
+		float: none
+
+	.header__middle
+		margin-top: 190px
+
+	.header__middle__btn, .partners__btn, .search__btn, .search__input
+		width: 280px
+
+	.header__middle__h1
+		font-size: 30px
+		line-height: 36px
+		width: 282px
+
+	.header__middle__h2
+		font-size: 18px
+		line-height: 22px
+		margin-top: 8px
+		margin-bottom: 15px
+
+	.header__top__btn
+		position: relative
+		left: -113px
+
+	.header__top__btn.signUp
+		left: 46px
+
+	.steps, .partners, .ideas, .search
+		padding-top: 33px
+
+	.steps__h3, .partners__h3, .ideas__h3
+		margin-bottom: 15px
+
+	.steps__blocks
+		width: 300px
+		height: 240px
+		margin-bottom: 10px
+		margin-right: 0
+		position: relative
+
+		&:last-child
+			margin-bottom: 0
+
+	.steps__blocks__arrows, .steps__blocks__left__arrow, .steps__blocks__right__arrow
+		position: absolute
+
+	.steps__blocks__left__arrow, .steps__blocks__right__arrow
+		width: 150px
+		height: 240px
+		top: -40px
+		background-image: none
+
+		&:active
+			+bgc($grey)
+			opacity: 0.3
+
+	.steps__blocks__left__arrow
+		left: -20px
+
+	.steps__blocks__right__arrow
+		left: 130px
+
+	.steps__blocks__info
+		height: 225px
+
+	.partners__wrapper
+		margin-bottom: 3px
+
+	.partners__blocks
+		margin-bottom: 23px
+
+	.square__block, .rectangle__block
+		width: 300px
+		height: 120px
+		margin-bottom: 10px
+
+	.square__block
+
+		&:last-child
+			+marg4(10px,20px,0,0)
+		&.bg1
+			background-position: 0 -30px
+		&.bg2
+			background-position: 0 -127px
+		&.bg3, &.bg7
+			background-position: 0 -50px
+		&.bg4
+			background-position: 0 -117px
+
+	.rectangle__block.bg6
+		background-position: -118px -31px
+
+	.pad40
+		+pad2(0, 40px)
+
+	.search__h3
+		margin-bottom: 0
+
+	.search__text
+		+marg3(12px,0,15px)
+
+	.search__input
+		margin-right: 0
+
+	.search__btn
+		margin-top: 10px
+
+	.footer
+		margin-top: 40px
+		padding-top: 16px
+		text-align: center
+		+pad2(16px,0)
+
+	.footer__collum__big
+		margin-bottom: 10px
+
+	.footer__collum
+		margin-bottom: 5px
+
+	.footer__collum__big, .footer__collum
+		width: 240px
+		float: none
+		margin-right: 0
+		display: inline-block
+
+	.footer__collum__link, .footer__collum__copyright__img
+		display: inline-block
+
+	.footer__collum__copyright
+		display: inline-block
+		float: none
+		text-align: center
+		margin-top: 10px
+
+	.footer__collum__copyright__img
+		float: none
+		// margin-top: 8px
+
+	.footer__collum__title
+		margin-bottom: 0
+
+	.footer__collum__link
+		margin-right: 12px
+		
+		&:last-child
+			margin-right: 0
+	

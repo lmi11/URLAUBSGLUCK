@@ -1,0 +1,29 @@
+//fonts
+$font_0: Roboto
+$font_1: Montserrat
+
+//urls
+$url_0: url(fonts/RobotoLight.woff)
+$url_1: url(fonts/RobotoLight.woff2)
+$url_2: url(fonts/Montserrat-Bold.woff)
+$url_3: url(fonts/Montserrat-Bold.woff2)
+$url_4: url(fonts/Montserrat-Regular.woff)
+$url_5: url(fonts/Montserrat-Regular.woff2)
+
+@font-face 
+	font-family: $font_0
+	font-style: normal
+	font-weight: 300
+	src: local('Roboto Light'), local('Roboto-Light'), $url_1 format('woff2'), $url_0
+
+@font-face 
+	font-family: $font_1
+	font-style: normal
+	font-weight: bold
+	src: local('Montserrat-Bold'), local('MontserratBold'), $url_3 format('woff2'), $url_2
+
+@font-face 
+	font-family: $font_1
+	font-style: normal
+	font-weight: normal
+	src: local('Montserrat-Regular'), local('MontserratRegular'), $url_5 format('woff2'), $url_4
